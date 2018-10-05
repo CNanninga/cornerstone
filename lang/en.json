@@ -4,7 +4,7 @@
     },
     "footer": {
         "brands": "Popular Brands",
-        "navigate": "Navigate",
+        "navigate": "Navigate Stuff",
         "info": "Info",
         "categories": "Categories",
         "call_us": "Call us at {phone_number}"
@@ -674,6 +674,7 @@
         "choose_an_option": "Please choose an option",
         "select_one": "Please select one",
         "description": "Description",
+        "size-chart": "Size Chart",
         "price_with_tax": "(Inc. {tax_label})",
         "price_without_tax": "(Ex. {tax_label})",
         "including_tax": "Including Tax",
