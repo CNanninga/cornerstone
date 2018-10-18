@@ -33,6 +33,16 @@ blog:
         {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
     {{/if}}
 
+    {{#if theme_settings.home_text_banner_enable}}
+    <h1>Test</h1>
+        <div>
+            {{theme_settings.home_text_banner_1}}
+        </div>
+        <div>
+            {{theme_settings.home_text_banner_2}}
+        </div>
+    {{/if}}
+
     {{#if products.new}}
         {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
     {{/if}}

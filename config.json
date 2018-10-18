@@ -4,9 +4,9 @@
   "meta": {
     "price": 0,
     "documentation_url": "https://support.bigcommerce.com/articles/Public/Cornerstone-Theme-Manual",
-    "author_name": "BigCommerce",
-    "author_email": "support@bigcommerce.com",
-    "author_support_url": "https://www.bigcommerce.com/support",
+    "author_name": "Chris Nanninga",
+    "author_email": "chris.nanninga@classyllama.com",
+    "author_support_url": "https://www.classyllama.com",
     "composed_image": "composed.png",
     "features": [
       "fully_responsive",
@@ -302,7 +302,14 @@
     "paymentbuttons-paypal-size": "small",
     "paymentbuttons-paypal-label": "checkout",
     "paymentbuttons-paypal-tagline": true,
-    "paymentbuttons-paypal-fundingicons": false
+    "paymentbuttons-paypal-fundingicons": false,
+    "home_text_banner_enable": true,
+    "home_text_banner_1": "This is a home page banner",
+    "home_text_banner_2": "This is another banner",
+    "home_banner_color_1": "#aaddee",
+    "home_banner_color_2": "#aaeedd",
+    "home_banner_font": "Google_Charmonman",
+    "home_banner_font_size": 12
   },
   "read_only_files": [
     "/assets/scss/components/citadel",

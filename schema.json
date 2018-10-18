@@ -1147,6 +1147,67 @@
             "label": "12"
           }
         ]
+      },
+      {
+        "type": "checkbox",
+        "id": "home_text_banner_enable",
+        "label": "Enable Home Page Banners"
+      },
+      {
+        "type": "text",
+        "label": "Text Banner 1",
+        "id": "home_text_banner_1"
+      },
+      {
+        "type": "text",
+        "label": "Text Banner 2",
+        "id": "home_text_banner_2"
+      },
+      {
+        "type": "color",
+        "label": "Text Banner 1 Color",
+        "id": "home_banner_color_1"
+      },
+      {
+        "type": "color",
+        "label": "Text Banner 2 Color",
+        "id": "home_banner_color_2"
+      },
+      {
+        "type": "font",
+        "label": "Text Banner Font",
+        "id": "home_banner_font",
+        "options": [
+          {
+            "group": "Charmonman",
+            "label": "Charmonman",
+            "value": "Google_Charmonman"
+          },
+          {
+            "group": "Work Sans",
+            "label": "Work Sans",
+            "value": "Google_Work+Sans"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "label": "Text Banner Font Size",
+        "id": "home_banner_font_size",
+        "options": [
+          {
+            "value": 10,
+            "label": "10px"
+          },
+          {
+            "value": 12,
+            "label": "12px"
+          },
+          {
+            "value": 14,
+            "label": "14px"
+          }
+        ]
       }
     ]
   },
