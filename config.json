@@ -1,6 +1,6 @@
 {
   "name": "Cornerstone from Chris",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "meta": {
     "price": 0,
     "documentation_url": "https://support.bigcommerce.com/articles/Public/Cornerstone-Theme-Manual",
@@ -308,7 +308,7 @@
     "home_text_banner_2": "This is another banner",
     "home_banner_color_1": "#aaddee",
     "home_banner_color_2": "#aaeedd",
-    "home_banner_font": "Google_Charmonman_300",
+    "home_banner_font": "Google_Charmonman",
     "home_banner_font_size": 12
   },
   "read_only_files": [

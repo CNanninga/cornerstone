@@ -1181,12 +1181,12 @@
           {
             "group": "Charmonman",
             "label": "Charmonman",
-            "value": "Google_Charmonman_300"
+            "value": "Google_Charmonman"
           },
           {
             "group": "Work Sans",
             "label": "Work Sans",
-            "value": "Google_Work+Sans_300"
+            "value": "Google_Work+Sans"
           }
         ]
       },
