@@ -1,5 +1,7 @@
 $banner-1-color:               stencilColor("home_banner_color_1");
 $banner-2-color:               stencilColor("home_banner_color_2");
+$home-banner-font:             stencilFontFamily("home_banner_font"), Arial, Helvetica, sans-serif;
+$home-banner-font-size:        stencilNumber("home_banner_font_size");
 
 
 .home-banner-wrapper {
@@ -17,6 +19,8 @@ $banner-2-color:               stencilColor("home_banner_color_2");
     padding: 10px;
     border: 2px solid #ddd;
     width: 49%;
+    font-family: $home-banner-font;
+    font-size: $home-banner-font-size;
   }
 
   .home-banner-one {
