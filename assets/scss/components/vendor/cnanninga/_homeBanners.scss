@@ -1,0 +1,31 @@
+$banner-1-color:               stencilColor("home_banner_color_1");
+$banner-2-color:               stencilColor("home_banner_color_2");
+
+
+.home-banner-wrapper {
+  margin-bottom: 20px;
+
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+    clear:both;
+  }
+
+  .home-banner {
+    min-height: 200px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    width: 49%;
+  }
+
+  .home-banner-one {
+    float: left;
+    background-color: rgba($banner-1-color, 1);
+  }
+
+  .home-banner-two {
+    float: right;
+    background-color: rgba($banner-2-color, 1);
+  }
+}

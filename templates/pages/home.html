@@ -34,12 +34,13 @@ blog:
     {{/if}}
 
     {{#if theme_settings.home_text_banner_enable}}
-    <h1>Test</h1>
-        <div>
-            {{theme_settings.home_text_banner_1}}
-        </div>
-        <div>
-            {{theme_settings.home_text_banner_2}}
+        <div class="home-banner-wrapper">
+            <div class="home-banner home-banner-one">
+                {{theme_settings.home_text_banner_1}}
+            </div>
+            <div class="home-banner home-banner-two">
+                {{theme_settings.home_text_banner_2}}
+            </div>
         </div>
     {{/if}}
 
@@ -48,4 +49,4 @@ blog:
     {{/if}}
 </div>
 {{/partial}}
-{{> layout/simple}}
+{{> layout/base}}
